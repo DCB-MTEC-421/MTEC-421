@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9E92511F-AACE-4E17-BCCC-0744002E5737}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{9E92511F-AACE-4E17-BCCC-0744002E5737}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Flamethrower_Play" ID="{7E9AB661-4B90-4522-A3EF-5F4B89F8463B}">
+					<ChildrenList>
+						<Action Name="" ID="{A0A6C8E2-09C9-44C5-9766-711DE718D32E}" ShortID="269027875">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flamethrower_Start" ID="{F2585EF4-770B-4F01-A539-0D527EBD4140}" WorkUnitID="{A7BAF38D-0685-4FE2-9D9C-59835BB94B63}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5A4DC9A6-41E8-495C-8670-8C5BF0EAC9C0}" ShortID="862288724">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flamethrower_Loop" ID="{61412033-6EDF-4BC8-9D98-762E16CEFEA9}" WorkUnitID="{A7BAF38D-0685-4FE2-9D9C-59835BB94B63}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Flamethrower_Stop" ID="{128450B4-E002-4628-94A3-7668FE17C41D}">
+					<ChildrenList>
+						<Action Name="" ID="{609FCB39-B7D7-41D8-B7CE-4CEA78461E45}" ShortID="474816966">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flamethrower_Loop" ID="{61412033-6EDF-4BC8-9D98-762E16CEFEA9}" WorkUnitID="{A7BAF38D-0685-4FE2-9D9C-59835BB94B63}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1CF06E38-0043-48A0-8391-1044A68CDE93}" ShortID="874924421">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flamethrower_Stop" ID="{CB621DB9-6DEF-4A79-B1DA-8D88F2E06862}" WorkUnitID="{A7BAF38D-0685-4FE2-9D9C-59835BB94B63}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

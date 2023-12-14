@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A7BAF38D-0685-4FE2-9D9C-59835BB94B63}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{A7BAF38D-0685-4FE2-9D9C-59835BB94B63}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Flamethrower" ID="{E01B6001-BE25-48FF-8119-2FFA6938D17B}" ShortID="247132545">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67C59AA9-2A21-4C54-A045-3FF7FEAC6BE5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BDFBC5B-9955-46BC-81DA-1EF12CBAB485}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Flamethrower_Start" ID="{F2585EF4-770B-4F01-A539-0D527EBD4140}" ShortID="1048448255">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67C59AA9-2A21-4C54-A045-3FF7FEAC6BE5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BDFBC5B-9955-46BC-81DA-1EF12CBAB485}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FIREMisc_Flamethrower CU Hissing Idle_PSE_OX_ZdVpn" ID="{1207E236-4C3C-421D-A3C1-5BF083A2A93F}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.156293291036736"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.12610026890464"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="9.74911142837837"/>
+										<Property Name="TrimEnd" Type="Real64" Value="10.4293144105027"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>FIREMisc_Flamethrower CU Hissing Idle_PSE_OX_ZdVpn.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="119596219"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FIREMisc_Flamethrower CU Hissing Idle_PSE_OX_ZdVpn" ID="{1207E236-4C3C-421D-A3C1-5BF083A2A93F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flamethrower_Loop" ID="{61412033-6EDF-4BC8-9D98-762E16CEFEA9}" ShortID="523295077">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67C59AA9-2A21-4C54-A045-3FF7FEAC6BE5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BDFBC5B-9955-46BC-81DA-1EF12CBAB485}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FIREMisc_Flamethrower CU Hissing Idle_PSE_OX_ZdVpn" ID="{50C3A1FF-CC6D-45A5-9A97-75B104D59A31}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="549.389"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.208026370369897"/>
+										<Property Name="LoopBegin" Type="Real64" Value="11.4976475049282"/>
+										<Property Name="LoopEnd" Type="Real64" Value="16.1203243380726"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="10.3530726613434"/>
+										<Property Name="TrimEnd" Type="Real64" Value="18.5057506925208"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>FIREMisc_Flamethrower CU Hissing Idle_PSE_OX_ZdVpn.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="996850627"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FIREMisc_Flamethrower CU Hissing Idle_PSE_OX_ZdVpn" ID="{50C3A1FF-CC6D-45A5-9A97-75B104D59A31}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Flamethrower_Stop" ID="{CB621DB9-6DEF-4A79-B1DA-8D88F2E06862}" ShortID="6774927">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67C59AA9-2A21-4C54-A045-3FF7FEAC6BE5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5BDFBC5B-9955-46BC-81DA-1EF12CBAB485}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FIREMisc_Flamethrower CU Hissing Idle_PSE_OX_ZdVpn" ID="{1E0BFE10-9FEB-4340-8952-72C8B497B9F1}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.937759746220429"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="18.1501443908015"/>
+										<Property Name="TrimEnd" Type="Real64" Value="20.1468790791699"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>FIREMisc_Flamethrower CU Hissing Idle_PSE_OX_ZdVpn.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="279772840"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FIREMisc_Flamethrower CU Hissing Idle_PSE_OX_ZdVpn" ID="{1E0BFE10-9FEB-4340-8952-72C8B497B9F1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

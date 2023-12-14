@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{F6ED77AB-C420-14A8-60CC-41A8FD9DD57A}">
+			<ShortName>Player</ShortName>
+			<Path>Player.bnk</Path>
+			<Media>
+				<File Id="119596219" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FIREMisc_Flamethrower CU Hissing Idle_PSE_OX_ZdVpn.wav</ShortName>
+					<CachePath>SFX/FIREMisc_Flamethrower CU Hissing Idle_PSE_OX_ZdVpn_B76D8969.wem</CachePath>
+				</File>
+				<File Id="279772840" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FIREMisc_Flamethrower CU Hissing Idle_PSE_OX_ZdVpn.wav</ShortName>
+					<CachePath>SFX/FIREMisc_Flamethrower CU Hissing Idle_PSE_OX_ZdVpn_ED09C4C2.wem</CachePath>
+				</File>
+				<File Id="996850627" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FIREMisc_Flamethrower CU Hissing Idle_PSE_OX_ZdVpn.wav</ShortName>
+					<CachePath>SFX/FIREMisc_Flamethrower CU Hissing Idle_PSE_OX_ZdVpn_DE32F539.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3520457680" Name="Flamethrower_Play" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="119596219"/>
+						<MediaRef Id="996850627"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1868939634" Name="Flamethrower_Stop" DurationType="OneShot" DurationMin="1.9967347" DurationMax="1.9967347">
+					<MediaRefs>
+						<MediaRef Id="279772840"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{072AF1C8-1B26-9ECB-EAE9-E23EC5806F4B}</FileHash>
+</SoundBanksInfo>

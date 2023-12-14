@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F6E660E9-B8A4-42C7-A0AD-D9DEA6CAE03D}" SchemaVersion="119">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{F6E660E9-B8A4-42C7-A0AD-D9DEA6CAE03D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Flamethrower" ID="{F4E8E7D6-171B-458A-9D4A-036886164677}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Flamethrower_Play" ID="{7E9AB661-4B90-4522-A3EF-5F4B89F8463B}" WorkUnitID="{9E92511F-AACE-4E17-BCCC-0744002E5737}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Flamethrower_Stop" ID="{128450B4-E002-4628-94A3-7668FE17C41D}" WorkUnitID="{9E92511F-AACE-4E17-BCCC-0744002E5737}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

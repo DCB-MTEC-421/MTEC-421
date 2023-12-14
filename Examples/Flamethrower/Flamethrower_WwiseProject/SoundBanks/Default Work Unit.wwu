@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{890F0C03-EB53-4C54-A2D0-C6A231BD2218}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{890F0C03-EB53-4C54-A2D0-C6A231BD2218}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Player" ID="{EE69CC7C-5D0C-4803-8458-24758ADA6509}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Flamethrower_Play" ID="{7E9AB661-4B90-4522-A3EF-5F4B89F8463B}" WorkUnitID="{9E92511F-AACE-4E17-BCCC-0744002E5737}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Flamethrower_Stop" ID="{128450B4-E002-4628-94A3-7668FE17C41D}" WorkUnitID="{9E92511F-AACE-4E17-BCCC-0744002E5737}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

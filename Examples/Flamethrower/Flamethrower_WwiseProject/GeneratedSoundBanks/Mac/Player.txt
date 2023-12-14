@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1868939634	Flamethrower_Stop			\Default Work Unit\Flamethrower_Stop	
+	3520457680	Flamethrower_Play			\Default Work Unit\Flamethrower_Play	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	119596219	Flamethrower_Start	Y:\Documents\Classes\Repositories\MTEC-421\Examples\Flamethrower\Flamethrower_WwiseProject\.cache\Mac\SFX\FIREMisc_Flamethrower CU Hissing Idle_PSE_OX_ZdVpn_B76D8969.wem		\Actor-Mixer Hierarchy\Default Work Unit\Flamethrower\Flamethrower_Start		130696
+	279772840	Flamethrower_Stop	Y:\Documents\Classes\Repositories\MTEC-421\Examples\Flamethrower\Flamethrower_WwiseProject\.cache\Mac\SFX\FIREMisc_Flamethrower CU Hissing Idle_PSE_OX_ZdVpn_ED09C4C2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Flamethrower\Flamethrower_Stop		383468
+	996850627	Flamethrower_Loop	Y:\Documents\Classes\Repositories\MTEC-421\Examples\Flamethrower\Flamethrower_WwiseProject\.cache\Mac\SFX\FIREMisc_Flamethrower CU Hissing Idle_PSE_OX_ZdVpn_DE32F539.wem		\Actor-Mixer Hierarchy\Default Work Unit\Flamethrower\Flamethrower_Loop		1565456
+

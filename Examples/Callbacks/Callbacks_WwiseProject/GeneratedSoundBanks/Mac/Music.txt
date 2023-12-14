@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	203639414	Turquoise_28Lines_bpm103	Y:\Documents\Classes\Repositories\MTEC-421\Examples\Callbacks\Callbacks_WwiseProject\.cache\Mac\SFX\Turquoise_28Lines_bpm103_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Soundtrack\Turquoise_28Lines_bpm103\Turquoise_28Lines_bpm103		45632720
+
