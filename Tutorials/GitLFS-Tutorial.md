@@ -44,6 +44,8 @@ Git-LFS uploads large files to an online storage destination. Links to this stor
 
 * GitHub grants 1GiB a month of free storage and bandwidth per repo. You can always [purchase and manage](https://docs.github.com/en/billing/managing-billing-for-git-large-file-storage) the Git LFS storage capacity.
 
+* It is best practice to track the **.gitattributes** file with your repo.
+
 ## Resources
 [Git LFS - Homepage](https://git-lfs.com/)
 
